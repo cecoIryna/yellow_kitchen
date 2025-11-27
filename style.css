@@ -2015,20 +2015,9 @@ button img
   display: inline-block;
 }
 
-}
-
 .map-image {
   display: none;
 }
-
-.geo1 { top: 37%; left: 30.5%; }
-.geo2 { top: 20%; left: 37.6%; }
-.geo3 { top: 14%; left: 55%; }
-.geo4 { top: 27%; left: 44%; }
-.geo5 { top: 39%; left: 40%; }
-.geo6 { top: 36%; left: 51%; }
-.geo7 { top: 62%; left: 46%; }
-.geo8 { top: 56%; left: 54.5%; }
 
   .geo-icon img {
     width: 15px;
