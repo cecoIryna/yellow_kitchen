@@ -1812,7 +1812,7 @@ menu button a img
   h1 {
     font-size: 22pt;
     line-height: 30pt;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   h2 {
@@ -1863,8 +1863,8 @@ button img
 {
   width: 150px;
   position: absolute;
-  right: 17px;
-  bottom: 53px;
+  right: 15px;
+  bottom: 50px;
   z-index: -3;
 }
 
@@ -2094,7 +2094,7 @@ button img
   h1 {
     font-size: 22pt;
     line-height: 30pt;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   h2 {
@@ -2143,9 +2143,9 @@ button img
 
 .photo .plate 
 {
-  width: 150px;
+  width: 130px;
   position: absolute;
-  right: -3px;
+  right: 15px;
   bottom: 53px;
   z-index: -3;
 }
@@ -2239,7 +2239,7 @@ button img
 
  .stats-container {
   flex-wrap: wrap;
-  width: 70%;
+  width: 60%;
   justify-content: center;
 }
 
