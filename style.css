@@ -1804,7 +1804,7 @@ menu button a img
 
 
 /*320px*/
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 
   menu {
     width: auto;
