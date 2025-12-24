@@ -21,7 +21,9 @@
 					<img src="img/cart.svg" alt="person">
 					<span>0</span>
 				</div>
-				<button><a href=""><img src="img/Button.svg" alt="menu" id="burger-icon"></a></button>
+				<button id="burger-btn">
+				    <img src="img/Button.svg" alt="menu" id="burger-icon">
+				</button>
 			</menu>
 		</nav>
 
@@ -333,9 +335,9 @@
 
 
 	<script>
-		const burgerBtn = document.getElementById("burger-btn");
-		const burgerIcon = document.getElementById("burger-icon");
-		const sideMenu = document.getElementById("side-menu");
+		let burgerBtn = document.getElementById("burger-btn");
+		let burgerIcon = document.getElementById("burger-icon");
+		let sideMenu = document.getElementById("side-menu");
 
 		let isOpen = false;
 
@@ -344,10 +346,10 @@
 
 		    if (isOpen) {
 		        sideMenu.classList.add("active");
-		        burgerIcon.src = "img/close.svg"; // КРЕСТИК
+		        burgerIcon.src = "img/close.svg"; 
 		    } else {
 		        sideMenu.classList.remove("active");
-		        burgerIcon.src = "img/Button.svg"; // БУРГЕР
+		        burgerIcon.src = "img/Button.svg";
 		    }
 		});
 	</script>
