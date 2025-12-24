@@ -208,7 +208,7 @@ menu div span
 /* Боковое меню */
 #side-menu {
     position: fixed;
-    top: 72px;
+    top: 73px;
     right: -300px;
     width: 300px;
     height: 100vh;
