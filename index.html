@@ -21,9 +21,19 @@
 					<img src="img/cart.svg" alt="person">
 					<span>0</span>
 				</div>
-				<button><a href=""><img src="img/Button.svg" alt=""></a></button>
+				<button><a href=""><img src="img/Button.svg" alt="menu" id="burger-icon"></a></button>
 			</menu>
 		</nav>
+
+		<!-- додано меню -->
+		<div id="side-menu">
+		    <ul>
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">Restaurants</a></li>
+		        <li><a href="#">Specialities</a></li>
+		        <li><a href="#">Contact</a></li>
+		    </ul>
+		</div>
 
 		<hr>
 
@@ -320,5 +330,26 @@
 	    	</div>
 	  	</div>
 	</footer>
+
+
+	<script>
+		const burgerBtn = document.getElementById("burger-btn");
+		const burgerIcon = document.getElementById("burger-icon");
+		const sideMenu = document.getElementById("side-menu");
+
+		let isOpen = false;
+
+		burgerBtn.addEventListener("click", function () {
+		    isOpen = !isOpen;
+
+		    if (isOpen) {
+		        sideMenu.classList.add("active");
+		        burgerIcon.src = "img/close.svg"; // КРЕСТИК
+		    } else {
+		        sideMenu.classList.remove("active");
+		        burgerIcon.src = "img/Button.svg"; // БУРГЕР
+		    }
+		});
+	</script>
 </body>
 </html>

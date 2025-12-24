@@ -204,6 +204,39 @@ menu button a img
   display: block;
 }
 
+/* Боковое меню */
+#side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px; /* скрыто */
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+    transition: right 0.3s ease;
+    padding: 80px 20px;
+    z-index: 1000;
+}
+
+#side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#side-menu li {
+    margin-bottom: 20px;
+}
+
+#side-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
+/* активное состояние */
+#side-menu.active {
+    right: 0;
+}
 
 #main 
 {
